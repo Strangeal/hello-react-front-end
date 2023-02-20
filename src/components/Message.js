@@ -8,12 +8,11 @@ const Message = () => {
 
   useEffect(() => {
     dispatch(messageFetch());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
       <p>{message.message}</p>
-      <p>Hello</p>
     </div>
   );
 };
