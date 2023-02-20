@@ -1,11 +1,17 @@
 import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Message from './components/Message';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello react</h1>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <h1>Welcome 👋 to Hello 🌍 World message API</h1>
+
+    <Routes>
+      <Route path="/" element={<Message />} />
+      <Route path="/message" element={<Message />} />
+    </Routes>
+  </div>
+);
 
 export default App;
