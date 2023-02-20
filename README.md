@@ -93,11 +93,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone git@github.com:Strangeal/hello-rails-react.git`
+`git clone git@github.com:Strangeal/hello-react-front-end.git`
 
 then
 
-`cd hello-rails-react`
+`cd hello-react-front-end`
 
 ### Install
 
@@ -126,21 +126,18 @@ OR
 
 **it will automatically correct the errors**
 
+<!-- BACK-END REPOSITORY -->
+## 💻 Back-end Repository <a name="backend-repo"></a>
 
-### Api-Endpoint-Testing
-
-<!-- FRONT-END REPOSITORY -->
-## 💻 Front-end Repository <a name="frontend-repo"></a>
-
-- [Click Here](https://github.com/Strangeal/hello-react-front-end)
+- [Click Here](https://github.com/Strangeal/hello-rails-back-end)
 
 - Clone this repository to your desired folder:
 
 - Example command:
 
   ```
-    git clone git@github.com:Strangeal/hello-react-front-end.git
-    cd hello-react-front-end
+    git clone git@github.com:Strangeal/hello-rails-back-end.git
+    cd hello-rails-back-end
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
